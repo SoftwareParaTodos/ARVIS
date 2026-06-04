@@ -1,4 +1,4 @@
-# ARVIS
+# ARVIS [☕ Donar al proyecto] [https://cafecito.app/ar_transcription]
 
 ARVIS es un asistente inteligente open source para computadora, pensado como una base real para construir un asistente personal moderno, modular, seguro y extensible.
 ________
