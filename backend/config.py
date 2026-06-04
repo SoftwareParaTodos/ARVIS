@@ -1,0 +1,50 @@
+from pathlib import Path
+
+
+APP_NAME = "ARVIS"
+PROJECT_NAME = APP_NAME
+APP_VERSION = "0.4.4"
+BACKEND_DIR = Path(__file__).resolve().parent
+STORAGE_DIR = BACKEND_DIR / "storage"
+NOTES_DIR = STORAGE_DIR / "notes"
+DATABASE_PATH = STORAGE_DIR / "arvis_memory.sqlite3"
+SETTINGS_PATH = STORAGE_DIR / "settings.json"
+
+OLLAMA_ENABLED = True
+OLLAMA_BASE_URL = "http://127.0.0.1:11434"
+OLLAMA_MODEL = "llama3.2"
+OLLAMA_TIMEOUT_SECONDS = 30
+CONVERSATION_HISTORY_ENABLED = True
+CONVERSATION_HISTORY_LIMIT = 6
+PENDING_ACTION_EXPIRATION_MINUTES = 10
+VOICE_ENABLED = True
+STT_ENABLED = True
+STT_ENGINE = "faster_whisper"
+STT_MODEL = "base"
+STT_LANGUAGE = "es"
+STT_DEVICE = "cpu"
+STT_COMPUTE_TYPE = "int8"
+TTS_ENABLED = True
+TTS_ENGINE = "pyttsx3"
+TTS_VOICE = "default"
+TTS_RATE = 175
+TTS_VOLUME = 1.0
+VOICE_OUTPUT_FORMAT = "wav"
+VOICE_STORAGE_KEEP_FILES = True
+MIC_ENABLED = True
+MIC_ENGINE = "sounddevice"
+MIC_SAMPLE_RATE = 16000
+MIC_CHANNELS = 1
+MIC_MAX_RECORD_SECONDS = 30
+MIC_DEFAULT_RECORD_SECONDS = 5
+MIC_INPUT_DEVICE = None
+MIC_SAVE_RECORDINGS = True
+
+ALLOWED_PROGRAMS = {
+    "notepad": "notepad.exe",
+    "calculator": "calc.exe",
+}
+
+ALLOWED_FOLDERS = {
+    "downloads": Path.home() / "Downloads",
+}
