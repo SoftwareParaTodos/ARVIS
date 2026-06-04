@@ -1,6 +1,11 @@
 # ARVIS
 
 ARVIS es un asistente inteligente open source para computadora, pensado como una base real para construir un asistente personal moderno, modular, seguro y extensible.
+________
+⭐ Si te gusta el proyecto, dejá una estrella en GitHub y considerá apoyar el desarrollo con una donación.
+
+[☕ Donar al proyecto]((https://cafecito.app/ar_transcription))
+
 
 El objetivo del proyecto es crear un sistema capaz de recibir órdenes por texto o voz, interpretarlas con inteligencia artificial, ejecutar acciones permitidas en la computadora, responder al usuario y guardar memoria local, priorizando siempre la seguridad y el control del usuario.
 
